@@ -1,0 +1,16 @@
+# Eidosian Refactor - Code Ownership Configuration
+
+# Default owners for everything in the repo
+* @Ace1928 @eidos
+
+# Version management
+/tools/version_update.py @Ace1928 @eidos
+pyproject.toml @Ace1928 @eidos
+
+# Core functionality
+/refactor_forge/analyzer/ @Ace1928 @eidos
+/refactor_forge/transformer/ @Ace1928 @eidos
+/refactor_forge/core/ @eidos @Ace1928
+
+# CI/CD pipelines
+/.github/workflows/ @Ace1928 @eidos
